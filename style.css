@@ -5,8 +5,16 @@ html{
 
 h1{
   text-align: center;
+  background-color: rgb(6, 135, 247);
+  font-weight:bolder;
+}
+
+h2{
+  text-align: center;
+  background-color: rgb(28, 28, 21);
 }
 
 *{
-  font-family: 'Courier New', Courier, monospace;
+ font-family: Arial, Helvetica, sans-serif;
 }
+
