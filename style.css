@@ -1,3 +1,7 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
 html{
   background: rgb(58, 81, 53);
   color:rgb(208, 208, 96)
@@ -5,16 +9,30 @@ html{
 
 h1{
   text-align: center;
-  background-color: rgb(6, 135, 247);
+  background-color: rgb(119, 34, 34);
+  color: white;
   font-weight:bolder;
 }
 
 h2{
   text-align: center;
   background-color: rgb(28, 28, 21);
+  margin: 0;
+
 }
 
-*{
- font-family: Arial, Helvetica, sans-serif;
+.box {
+  border: 3px solid black;
 }
 
+.summary ul{
+  text-align: left;
+  text-indent: 1rem;
+  height: 300px;
+
+}
+
+img#photo{
+  float:left;
+
+}
