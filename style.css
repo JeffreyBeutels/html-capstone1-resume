@@ -8,12 +8,13 @@ html{
 }
 .menu-bar{
   display:flex;
-  flex:1;
-  background-color: black;
+  /* flex:1; */
+
   font-size: 2rem;
   flex-direction: row;
   height: 3rem;
 }
+
 
 @media (max-width:600px) {
     .menu-bar{
@@ -26,12 +27,20 @@ html{
   }
 }
 
+.menu-bar > a {
+  /* font-style: oblique; */
+  color: black;
+  font-variant: small-caps;
+  text-decoration:dotted;
+}
 
 .menu-bar-button{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(192, 192, 192);
   height: 2rem;
   text-align: center;
-  border: 5px solid transparent;
+  border: 5px solid black;
+  padding: 5px;
+  flex: 1;
 }
 
 h1{
